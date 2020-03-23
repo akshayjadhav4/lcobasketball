@@ -15,7 +15,7 @@ function App() {
       <div>
         <NavbarCompo />
         <Switch>
-          <Route path="/homeSection" exact component={HomeSection} />
+          <Route path="/" exact component={HomeSection} />
           <Route path="/about" exact component={AboutSection} />
           <Route path="/tournament" exact component={Tournament} />
           <Route path="/team" exact component={Team} />

@@ -37,7 +37,7 @@ export default function NavbarCompo() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="/homeSection" style={NavLinkStyle}>
+            <Nav.Link href="/" style={NavLinkStyle}>
               Home
             </Nav.Link>
             <Nav.Link href="/about" style={NavLinkStyle}>
