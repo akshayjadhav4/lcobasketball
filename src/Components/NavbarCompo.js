@@ -84,9 +84,7 @@ export default function NavbarCompo() {
               <Form.Label>Password</Form.Label>
               <Form.Control type="password" placeholder="Password"required />
             </Form.Group>
-            <Form.Group controlId="formBasicCheckbox">
-              <Form.Check type="checkbox" label="Check me out" />
-            </Form.Group>
+            
             <Button variant="primary" type="submit">
               Submit
             </Button>
@@ -117,9 +115,7 @@ export default function NavbarCompo() {
               <Form.Label>Password</Form.Label>
               <Form.Control type="password" placeholder="Password"required />
             </Form.Group>
-            <Form.Group controlId="formBasicCheckbox">
-              <Form.Check type="checkbox" label="Check me out" />
-            </Form.Group>
+            
             <Button variant="primary" type="submit">
               Submit
             </Button>
